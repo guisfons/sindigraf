@@ -1,0 +1,48 @@
+.received-header {
+    background-color: #E4F2FF;
+}
+
+.received-title {
+    padding-top: 3.6rem;
+    font-size: 2.4rem;
+    color: #FA5B37;
+    padding-bottom: 1.5rem;
+}
+
+.received-total {
+    font-size: 1.8rem;
+    padding-bottom: 2.5rem;
+}
+
+.received-table.wrapper {
+    padding-top: 5rem;
+}
+
+.received-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+}
+
+.received-candidate-name {
+    font-size: 1.8rem;
+}
+
+.received-candidate-curriculum {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #FA5B37;
+}
+
+.received-date {
+    font-size: 1.4rem;
+}
+
+.received-row:not(:last-child) {
+    border-bottom: 0.1rem
+ solid #D1D1D1;
+}
+
+.received {
+    padding-bottom: 19rem;
+}

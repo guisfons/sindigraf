@@ -1,0 +1,349 @@
+.header {
+    padding-top: 2rem;
+}
+
+.header::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1.4rem;
+    background-color: #FA5B37;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-brand-text {
+    font-size: 1.8rem;
+}
+
+.header-login {
+    text-decoration: none;
+    color: #fff;
+    background-color: #FA5B37;
+    font-size: 1.8rem;
+    display: flex;
+    width: 14rem;
+    height: 4.5rem;
+    align-items: center;
+    padding: 0 0.9rem 0 2.3rem;
+}
+
+.header-login img {
+    padding-left: 2.3rem;
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+
+.header-brand {
+    display: flex;
+    align-items: center;
+}
+
+/* .header-brand img {
+	max-width: 30rem;
+} */
+
+.image-abigraf {
+    padding-right: 4.4rem;
+    height: 3.5rem;
+}
+
+.image-sidigraf {
+    height: 5rem;
+}
+
+.image-mobile {
+    display: none;
+}
+
+.form-text {
+    font-size: 1.6rem;
+    color: #000;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: #FA5B37;
+    padding-bottom: 1rem;
+    width: 32rem;
+    height: 4rem;
+}
+
+.form-submit {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.form-box {
+    position: relative;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #202020;
+    text-decoration: none;
+}
+
+.nav-item.active {
+    color: #FA5B37;
+}
+
+
+.nav-list-item:hover .nav-item {
+    color: #FA5B37;
+}
+
+.nav {
+    padding-top: 4.5rem;
+    padding-bottom: 1rem;
+}
+
+.nav-list-item {
+    display: inline-block;
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    list-style: none;
+    padding-top: 2rem;
+    max-width: 25rem;
+}
+
+.nav-list-item:hover > .submenu {
+    display: block;
+    position: absolute;
+}
+
+a.drop-down-link {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    background-color: #FA5B37;
+}
+
+.submenu-teste {
+    display: none;
+    position: absolute;
+    width: 29rem;
+    padding-top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.nav-list-item:hover .submenu-teste {
+    display: block;
+}
+
+.drop-down-link:after {
+    content: '';
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #cecece;
+    height: 0.1rem;
+}
+
+.drop-down-link:last-child:after {
+    height: 0;
+}
+
+.drop-down-link span {
+    padding: 1rem 2rem;
+    display: inline-block;
+}
+
+.header-menu__mobile {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .header {
+        padding-top: 0;
+        -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.5);
+        -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.5);
+        box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.5);
+        position: relative;
+    }
+
+    .header::after {
+        display: none;
+    }
+
+    .header-bottom {
+        padding: 39px 0 35px;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 3rem;
+    }
+
+    .header-brand {
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .header-menu__mobile {
+        display: block;
+        
+        height: 60px;
+        background-color: #FA5B37;
+    }
+
+    .header-menu__mobile .wrapper{
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .header-menu-icon {
+        cursor: pointer;
+        margin-right: auto;
+    }
+
+    .header-menu__mobile a:not(:last-of-type) {
+        margin-right: 26px;
+    }
+
+    .header-top {
+        display: none;
+    }
+
+    .image-abigraf {
+        padding: 0;
+    }
+
+    .image-mobile {
+        display: block;
+        max-width: 100%;
+        width: 150px;
+    }
+
+    .form-box {
+        margin-left: 10px;
+    }
+
+    .form-submit {
+        width: 28px;
+        height: 28px;
+    }
+
+    .form-text {
+        border-color: #000;
+        max-width: 231px;
+        width: 100%;    
+        height: 38px;
+    }
+
+    .nav {
+        display: none;
+        background-color: #FA5B37;
+        padding: 17px 0 26px 32px;
+
+        max-width: 375px;
+        width: 100%;
+        margin: 0;
+
+        position: absolute;
+        z-index: 9999;
+    }
+
+    .nav {
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .nav .nav-list {
+        flex-direction: column;
+    }
+
+    .nav-list-item:not(:last-of-type) {
+        margin-bottom: 29px;
+    }
+    
+    .nav-list-item .submenu-teste {
+        position: relative;
+        transform: none;
+        left: initial;
+        background: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    .nav-list-item:hover .nav-item {
+        color: #fff;
+    }
+    
+    .nav-item {
+        font-size: 16px;
+        color: #fff;
+    }
+
+    .nav-list-item .nav-item:hover, .nav-list-item .nav-item:active {
+        color: #FCCF00;
+    }
+
+    .nav-item.active {
+        color: #fff;
+    }
+
+    .with-submenu::after {
+        content: '';
+        border: 1px solid #FCCF00;
+        border-width: 1px 1px 0px 0px;
+        width: 7px;
+        height: 7px;
+        display: inline-block;
+        transform: translate(11px, -2px) rotate(45deg);
+        transition: .3s all;
+    }
+
+    .nav-list-item:hover .with-submenu::after,
+    .nav-list-item:active .with-submenu::after {
+        transform: translate(11px, -4px) rotate(135deg);
+    }
+    
+    .submenu-teste {
+        margin: 20px 0 0 10px;
+    }
+
+    a.drop-down-link {
+        background: none;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    a.drop-down-link:not(:last-of-type) {
+        margin-bottom: 17px;
+    }
+    
+    .drop-down-link span {
+        padding: 0;
+    }
+    
+    .drop-down-link:after {
+        display: none;
+    }
+
+}

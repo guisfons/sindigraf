@@ -1,0 +1,69 @@
+.salary h3 {
+    font-size: 3rem;
+    text-align: center;
+    color: #FA5B37;
+    max-width: 66rem;
+    margin: 0 auto;
+    padding: 8rem 0 3rem;
+}
+
+p.salary.subtitle {
+    text-align: center;
+    font-size: 1.8rem;
+    padding-bottom: 4rem;
+}
+
+.salary img {
+    display: block;
+    margin: 0 auto;
+}
+
+.salary-text {
+    padding: 5rem 0 6rem;
+}
+
+.salary-text p {font-size: 1.6rem;padding: 2rem 0;font-weight: bold;}
+
+p.salary-informacoes {
+    text-align: center;
+    font-size: 1.6rem;
+    padding-bottom: 8rem;
+}
+
+section.salary-support h3 {
+    font-size: 3.6rem;
+    color: #FA5B37;
+    text-align: center;
+    padding-bottom: 5.5rem;
+}
+
+.salary-support-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.salary-support-item p {
+    text-align: center;
+    padding-bottom: 2.6rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+section.salary-support {
+    padding-bottom: 10rem;
+}
+
+p.salary-informacoes a {
+    color: #202020;
+}
+
+.salary .blue-section-item {
+    flex: 1 0 25%;
+}
+
+@media(max-width: 769px) {
+    .salary-support-box {
+        justify-content: center;
+    }
+}

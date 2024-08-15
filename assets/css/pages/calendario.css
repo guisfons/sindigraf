@@ -1,0 +1,215 @@
+.calendario {
+    margin: 6.4rem auto 8.4rem;
+}
+
+.calendario h3 {
+    font-size: 3rem;
+    color: #FA5B37;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 3.8rem;
+}
+
+.calendario-eventos {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3.1rem;
+    row-gap: 3.1rem;
+    margin-bottom: 6.9rem;
+}
+
+.calendario-eventos-card {
+    background-color: #E4F2FF;
+    padding: 3.7rem 3.1rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 35rem;
+    width: 100%;
+    height: 40rem;
+}
+
+.calendario-eventos-card span {
+    font-size: 2.4rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.4rem;
+}
+
+.calendario-eventos-card span img {
+    margin-right: 1.7rem;
+}
+
+.calendario-eventos-card h4 {
+    font-size: 2.1rem;
+    font-weight: 600;
+}
+
+.calendario-eventos-card a {
+    max-width: 22rem;
+    width: 100%;
+    height: 4.9rem;
+    background-color: #FA5B37;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto 0;
+}
+
+.calendario > span {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    margin-bottom: 3rem;
+}
+
+.calendario-agenda {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendario-component {
+    margin: 0 5.2rem;
+}
+
+.calendario-agenda-back, .calendario-agenda-next {
+    cursor: pointer;
+}
+
+.calendario-agenda-next {
+    transform: rotate(-180deg);
+}
+
+/* Eventos */
+
+.eventos-anteriores {
+    margin: 6.9rem auto 4.4rem;
+}
+
+.eventos-anteriores-card {
+    display: flex;
+    flex-direction: column;
+    border-bottom: .1rem solid #DCDCDC;
+}
+
+.eventos-anteriores-card:not(:first-of-type) {
+    margin-top: 2.7rem;
+}
+
+.eventos-anteriores-card span {
+    font-size: 1.8rem;
+    color: #FA5B37;
+}
+
+.eventos-anteriores-card article {
+    margin: 1.5rem 0 1.8rem;
+}
+
+.eventos-anteriores-card article h4 {
+    font-size: 1.8rem;
+    margin-bottom: 1.1rem;
+}
+
+.eventos-anteriores-card article p {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.eventos-anteriores-card a {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FA5B37;
+    margin-bottom: 2.51rem;
+}
+
+@media (max-width: 900px) {
+    .calendario-eventos {
+        justify-content: center;
+    }
+}
+
+/* Interna */
+
+.agenda {
+    background-color: #E4F2FF;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.agenda-conteudo {
+    margin: 5.2rem auto 6.2rem;
+    position: relative;
+}
+
+.agenda-header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 3.6rem;
+}
+
+.agenda-header span {
+    font-size: 2.4rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.agenda-header img {
+    margin-right: 2.3rem;
+}
+
+.agenda-header span:last-of-type {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.agenda-conteudo article {
+    margin-top: 6.3rem;
+    white-space: pre-line;
+}
+
+.agenda-conteudo article h3 {
+    font-size: 3rem;
+    line-height: 4.8rem;
+    color: #FA5B37;
+    margin-bottom: 4rem;
+}
+
+.agenda-conteudo article p {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    font-weight: 600;
+    color: #050000;
+}
+
+
+@media (max-width: 900px) {
+    .agenda-conteudo .formulario-back {
+        top: 0;
+    }
+
+    .agenda-header {
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 3rem;
+    }
+
+    .agenda-header span:last-of-type {
+        position: relative;
+        left: initial;
+        transform: none;
+    }
+}

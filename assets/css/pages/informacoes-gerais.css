@@ -1,0 +1,33 @@
+.curriculum-viewed {
+    text-align: center;
+    color: #FA5B37;
+    font-size: 1.8rem;
+}
+
+.curriculum-viewed-number {
+    font-size: 4.8rem;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.info-general-option-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4.7rem;
+    justify-content: center;
+}
+
+.info-general-option-text {
+    font-size: 1.6rem;
+    max-width: 64rem;
+    width: 100%;
+    font-weight: bold;
+}
+
+.menu-cards-text.company:last-child {
+    color: #fff;
+}
+
+.menu-cards-text.company {
+    padding-bottom: 3rem;
+}

@@ -1,0 +1,195 @@
+.modal {
+    width: 84.58%;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3rem;
+    row-gap: 7.3rem;
+    margin: 6.2rem auto 7.2rem;
+}
+
+.galeria-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 35rem;
+    width: 100%;
+}
+
+.galeria-card figure {
+    max-width: 35rem;
+    width: 100%;
+    min-height: 20rem;
+    max-height: 20rem;
+    margin: 0 auto;
+}
+
+.galeria-card figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.galeria-card article {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+    height: 100%;
+}
+
+.galeria-card-date {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #FA5B37;
+}
+
+.galeria-card-texto {
+    font-size: 2.1rem;
+    line-height: 3rem;
+    margin: 1.6rem 0 2rem;
+}
+
+.galeria-card-link {
+    width: fit-content;
+    font-size: 1.4rem;
+    color: #FA5B37;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: auto;
+}
+
+@media (max-width: 900px) {    
+    .galeria {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Modal */
+
+.modal {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    max-width: 120rem;
+    width: 100%;
+    max-height: 90vh;
+    background-color: rgba(18, 48, 77, .9);
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: #fff;
+    
+    z-index: 9;
+}
+
+.modal--active {
+    display: flex;
+}
+
+.modal-close {
+    position: absolute;
+    top: 4.4rem;
+    right: 4.5rem;
+    cursor: pointer;
+}
+
+.modal h3 {
+    margin: 5.3rem auto 4.4rem;
+    text-align: center;
+}
+
+.modal-slider {
+    width: 84.58%;
+}
+
+.modal-slider img {
+    width: 100%;
+    height: 60vh;
+    object-fit: contain;
+
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.modal .slick-arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+
+    background-color: transparent;
+    background-image: url(../../images/icons/modal-arrow.svg);
+    background-size: contain;
+
+    width: 3.188rem;
+    height: 5.075rem;
+    border: none;
+
+    font-size: 0;
+    z-index: 2;
+}
+
+.galeria .modal .slick-prev {
+    left: -6rem;
+}
+
+.modal .slick-prev {
+    left: -6rem;
+    transform: translateY(-50%);
+}
+
+.galeria .modal .slick-next {
+    right: -6rem;
+}
+
+.modal-paginacao{
+    margin: 3.7rem auto 3.6rem;
+}
+
+.modal-slider .slick-dots li button {
+    border: none;
+    background-color: transparent;
+}
+
+
+@media (max-width: 900px) {
+    .modal {    
+        padding: 2rem;
+    }
+
+    .modal-close {
+        top: 1rem;
+        right: 1rem;
+        width: 3rem;
+    }
+
+    .modal-slider {
+        width: 100%;
+    }
+
+    .modal-slider img {
+        height: 30vh;
+    }
+
+    .modal-arrow-before, .modal-arrow-after {
+        width: 3rem;
+    }
+
+    .modal .slick-prev {
+        left: 2rem;
+    }
+    
+    .modal .slick-next {
+        right: 2rem;
+    }
+}

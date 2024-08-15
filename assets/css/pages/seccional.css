@@ -1,0 +1,89 @@
+.seccional {
+    margin: 7rem auto 6.5rem;
+}
+
+.seccional h3 {
+    font-size: 3.6rem;
+    color: #0D4A82;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1.8rem;
+}
+
+.sobre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobre article {
+    max-width: 56rem;
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-right: 8rem;
+}
+
+.sobre article a {
+    margin-top: 4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FA5B37;
+    display: block;
+}
+
+.galeria-link {
+    max-width: 92rem;
+    width: 100%;
+    height: 16rem;
+    margin: 0 auto 9.1rem;
+    padding: 6.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    background-image: url(../../images/sides/galeria-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.galeria-link h4 {
+    font-size: 3.6rem;
+}
+
+.galeria-link hr {
+    max-width: 8.4rem;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #FCCF00;
+    margin: 1rem 0 1.3rem;
+}
+
+.galeria-link span {
+    font-size: 1.6rem;
+}
+
+@media (max-width: 1280px) {
+    .sobre {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobre article {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    .galeria-link {
+        height: auto;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .galeria-link hr {
+        margin: 1rem auto;
+    }
+}

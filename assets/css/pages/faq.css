@@ -1,0 +1,36 @@
+.faq {
+    margin-bottom: 20rem;
+}
+
+.faq h3 {
+    font-size: 3rem;
+    text-align: center;
+    color: #FA5B37;
+    margin: 7.6rem 0 4.9rem;
+}
+
+.faq h4 {
+    font-size: 2rem;
+    text-align: center;
+    color: #FA5B37;
+    margin: 0 0 4.9rem;
+}
+
+.faq .formulario-container {
+    margin-bottom: 5rem;
+}
+
+.formulario-container article {
+    padding: 2.6rem 1rem;
+}
+
+.formulario-container article p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.formulario-container article p a {
+    font-weight: 800;
+    color: #FA5B37;
+}

@@ -1,0 +1,56 @@
+.apresentacoes {
+    margin-top: 8rem;   
+}
+
+.apresentacoes-card {
+    display: flex;
+    align-items: center;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #DCDCDC;
+    margin-bottom: 2.8rem;
+}
+
+.apresentacoes-card figure {
+    width: 8rem;
+    height: 8rem;
+    margin: 0 .5rem 0 0;
+}
+
+.apresentacoes-card span {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2rem;
+    color: #FA5B37;
+    margin-bottom: .3rem;
+}
+
+.apresentacoes-card p {
+    font-size: 1.8rem;
+    max-width: 66.6rem;
+    width: 100%;
+    line-height: 2.4rem;
+}
+
+.apresentacoes-card a {
+    background-color: #FA5B37;
+    width: 19.7rem;
+    height: 4.9rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .2rem;
+    margin-left: auto;
+
+    -webkit-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.043);
+    -moz-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.043);
+    box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.043);
+}
+
+.apresentacoes .paginacao-numeros .paginacao-numero--active {
+    color: #1890FF;
+    box-shadow: inset 0px 0px 0px 1px #1890FF;
+}

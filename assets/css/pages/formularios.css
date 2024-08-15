@@ -1,0 +1,138 @@
+p.register-title {
+    font-size: 2.1rem;
+    color: #FA5B37;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.register-double-input {
+    display: flex;
+    margin-bottom: 3rem;
+    justify-content: space-between;
+}
+
+.input-select.input-size {
+    max-width: 44.5rem;
+}
+
+.register-container.wrapper {
+    padding: 0 9.5rem 23rem;
+}
+
+
+.register-item .input.input-full.input-textarea {
+    margin-bottom: 3rem;
+}
+
+.input-text {
+    max-width: 44.5rem;
+    width: 100%;
+}
+
+.input-single {
+    margin-bottom: 3rem;
+}
+
+a.add-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #4299E9;
+    text-decoration: none;
+    max-width: 28rem;
+    width: 100%;
+    height: 5rem;
+    font-size: 1.8rem;
+}
+
+input.submit-form {
+    font-size: 2rem;
+    color: #fff;
+    background-color: #FA5B37;
+    border: none;
+    height: 7.7rem;
+    max-width: 34rem;
+    width: 100%;
+    display: block;
+    margin: 14rem auto 12rem;
+}
+
+.add-field-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+form.small-form {
+    max-width: 44.5rem;
+    margin: 0 auto;
+}
+
+.small-form .input-select.input-size select, .small-form .input-select.input-size, .small-form .input-text {
+    max-width: 20rem;
+}
+
+@media(max-width: 768px) {
+    .register-double-input {
+        flex-direction: column;
+        row-gap: 2.5rem;
+    }
+
+    .register-container.wrapper {
+        padding: 0 0 5rem;
+    }
+    
+    .input-select.input-size, .input-text, .input-date {
+        max-width: 100%;
+        flex: 1;
+    }
+
+    .register-title {
+        padding-top: 2rem;
+    }
+
+}
+
+@media(max-width: 426px) {
+    .input-text {
+        max-width: 22rem;
+    }
+
+    .input-select.input-size {
+        max-width: 22rem;
+    }
+
+    .add-field-box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    p.required-fields {
+        padding-top: 2rem;
+    }
+}
+
+@media(max-width: 376px) {
+    .input-text {
+        max-width: 19rem;
+    }
+
+    .input-select.input-size {
+        max-width: 19rem;
+    }
+}
+
+@media(max-width: 321px) {
+    .input-text {
+        max-width: 17rem;
+    }
+
+    .input-select.input-size {
+        max-width: 17rem;
+    }
+
+    .small-form .input-select.input-size select, .small-form .input-select.input-size, .small-form .input-text {
+        max-width: 17rem;
+    }
+}

@@ -1,0 +1,66 @@
+.aside {
+    background-image: url(../../images/sides/aside-bg.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 15rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.aside h2 {
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 3.6rem;
+    color: #fff;
+}
+
+.aside-large {
+    height: 45rem;
+}
+
+.aside-large h2 {
+    position: absolute;
+    bottom: 4rem;
+    right: 7.5rem;
+}
+
+.aside-galeria {
+    background-image: url(/images/sides/aside-galeria.png);
+}
+
+.aside-apresentacoes {
+    background-image: url(/images/sides/aside-apresentacoes.png);
+}
+
+.aside-fale-conosco {
+    background-image: url(/images/sides/aside-fale-conosco.png);
+}
+
+.aside-sindigraf {
+    background-image: url(/images/sides/aside-bg-sindrigraf.png);
+}
+
+.aside-juridica {
+    background-image: url(/images/sides/aside-juridica.png);
+}
+
+.aside-comunicacao {
+    background-image: url(/images/sides/aside-comunicacao.png);
+}
+
+.aside-faq {
+    background-image: url(/images/sides/aside-faq.png);
+}
+
+.aside-servicos {
+    background-image: url(/images/sides/aside-servicos.png);
+}
+
+.aside-calendario {
+    background-image: url(/images/sides/aside-calendario.png);
+}

@@ -1,0 +1,60 @@
+.fale-conosco-page {
+    margin: 8.4rem auto 14.3rem;
+    position: relative;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 12.5rem;
+    margin-bottom: 11.5rem;
+}
+
+.contato article {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato article:nth-of-type(2) {
+    padding: 0 11.15rem;
+    border: 1px solid #D2D2D2;
+    border-width: 0 .1rem 0;
+}
+
+.contato span {
+    color: #FA5B37;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contato address {
+    font-style: normal;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.formulario-back {
+    position: absolute;
+    top: 2rem;
+    right: 0;
+}
+
+@media (max-width: 900px) {
+    .contato {    
+        flex-direction: column;
+    }
+
+    .contato article:nth-of-type(2) {
+        margin: 4rem 0;
+        padding: 4rem 0;
+        border-width: .1rem 0;
+    }
+
+    .formulario-back {
+        top: -5rem;
+    }  
+
+}

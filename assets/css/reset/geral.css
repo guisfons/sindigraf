@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Martel:wght@200;300;400;600;700;800;900&family=Raleway:wght@500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 800;
+}
+
+html, body {
+    font-size: 62.5%;
+    font-family: 'Martel', serif;
+    font-weight: 800;
+    color: #202020;
+}
+
+.wrapper {
+    max-width: 111.5rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper-slider {
+    max-width: 120rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.only-desktop {
+    display: block;
+}
+
+.only-mobile {
+    display: none;
+}
+
+main {
+    min-height: 500px;
+}
+
+@media (max-width: 1280px) {
+    html, body {
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 900px) {
+    .wrapper {
+        max-width: 86.41%;
+    }
+
+    .only-desktop {
+        display: none;
+    }
+
+    .only-mobile {
+        display: block;
+    }
+}

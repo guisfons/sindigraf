@@ -1,0 +1,39 @@
+.historia {
+    margin: 5.4rem 0;
+}
+
+.historia-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.historia-ano {
+    background-color: #E4F2FF;
+    max-width: 16rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: #FA5B37;
+    padding: 3rem 0;
+    margin-right: 3rem;
+}
+
+.historia-text {
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 2.75rem 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+@media (max-width: 600px) {
+    .historia-box {
+        flex-direction: column;
+    }
+
+    .historia-ano {
+        max-width: 100%;
+    }
+} 

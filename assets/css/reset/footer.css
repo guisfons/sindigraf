@@ -1,0 +1,252 @@
+.newsletter {
+    background-color: #4299E9;
+    padding: 5rem;
+}
+
+.news-text {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    max-width: 43rem;
+}
+
+.news-email {
+    width: 33.3rem;
+    height: 4.5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding-left: 1.7rem;
+    border: 1px solid #635E5E;
+    outline: none;
+}
+
+.news-submit {
+    border: none;
+    background-color: #FA5B37;
+    color: #fff;
+    font-size: 1.6rem;
+    min-width: 16rem;
+    max-width: 16rem;
+    width: 100%;
+    height: 4.5rem;
+    font-weight: 800;
+    margin-left: 3.5rem;
+    cursor: pointer;
+}
+
+.news-form {
+    width: 100%;
+    padding-left: 4.7rem;
+}
+
+.news-form p {
+    display: flex;
+}
+
+.news-content {
+    padding-left: 5.9rem;
+    display: flex;
+}
+
+.footer-bottom {
+    padding-left: 5.9rem;
+    padding-top: 3.4rem;
+    display: flex;
+}
+
+p.footer-contact {
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+
+a.footer-phone {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #FA5B37;
+    text-decoration: none;
+    padding-right: 3.2rem;
+}
+
+a.footer-email {
+    color: #FA5B37;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+p.footer-location {
+    padding-top: 4.5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+p.footer-location a {
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #202020;
+}
+
+p.footer-location a:visited {
+    text-decoration: none;
+    color: #202020;
+}
+
+.footer-left {
+    padding-right: 6.7rem;
+    position: relative;
+}
+
+.footer-left:after {
+    content: '';
+    display: block;
+    width: 0.2rem;
+    height: 95%;
+    background-color: #cecece;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.footer-right {
+    padding-left: 7.7rem;
+}
+
+p.footer-name {
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding-bottom: 1.7rem;
+}
+
+.footer-social {
+    padding-left: 1rem;
+    padding-bottom: 2.8rem;
+}
+
+footer.footer {
+    padding-bottom: 4rem;
+}
+
+img.footer-social-image {
+    margin-right: 4rem;
+}
+
+a.footer-social-media {
+    text-decoration: none;
+}
+
+.footer-mobile {
+    display: none;
+}
+
+/* mobile */
+
+@media (max-width: 900px) {
+    .newsletter {
+        padding: 17px 0 30px;
+        background-color: #FA5B37;
+    } 
+
+    .news-content {
+        flex-direction: column;
+        align-items: center;
+        padding: 0; 
+    }
+
+    .news-form {
+        padding: 0;
+        margin-top: 15px;
+
+        display: flex;
+    }
+
+    .news-form p {
+        justify-content: center;
+    }
+
+    .news-email {
+        width: 100%;
+        height: 37px;
+    }
+
+    .news-submit {
+        height: 37px;
+        background-color: #1890FF;
+    }
+
+    .wpcf7-form-control-wrap {
+        width: 100%;
+    }
+
+    footer.footer {
+        padding-bottom: 20px;
+    }
+
+    .footer-bottom {
+        padding: 26px 0 0;
+    }
+
+    .footer-left, .footer-right {
+        display: none;
+    }
+
+    .footer-mobile {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .footer-mobile a{
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: 600;
+        color: #000;
+        text-align: center;
+    }
+    
+    .footer-faleconosco {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 26px;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .footer-faleconosco a {
+        font-size: 14px;
+        font-weight: 700;
+        text-decoration: none;
+        color: #000;
+    }
+    
+    .footer-social-mobile {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+    .footer-social-mobile a:not(:last-of-type) {
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 450px) {
+    .news-form {
+        flex-direction: column;
+    }
+
+    .news-form p {
+        flex-wrap: wrap;
+    }
+
+    .news-submit {
+        margin: 2rem 0;
+        max-width: 100%;
+    }
+}

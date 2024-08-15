@@ -1,0 +1,36 @@
+.sobre-text {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: #000;
+
+    margin-bottom: 21rem;
+}
+
+.sobre-text ul {
+    margin-top: 4.5rem;
+}
+
+.sobre-text ul li {
+    list-style: none;
+    padding-left: 1rem;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.sobre-text ul li::before {
+    content: '';
+    width: .5rem;
+    height: .5rem;
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #FA5B37;
+    border-radius: 50%;
+}
+
+@media (max-width: 900px) {
+    .sobre-text {
+        margin-bottom: 10rem;
+    }
+}

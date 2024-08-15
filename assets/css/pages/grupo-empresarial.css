@@ -1,0 +1,109 @@
+
+.grupo-empresarial {
+    margin: 10.5rem auto 11.7rem;
+}
+.grupo-empresarial > article {
+    white-space: break-spaces;
+}
+
+.grupo-empresarial > article p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #202020;
+}
+
+.grupo-empresarial-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 2.4rem;
+    row-gap: 3.3rem;
+    margin-top: 5rem;
+}
+
+.grupo-empresarial-card {
+    background-color: #E4F2FF;
+    text-align: center;
+    width: 35rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.grupo-empresarial-card:hover .grupo-empresarial-card-hidden {
+    opacity: 1;
+}
+
+.grupo-empresarial-card:hover article {
+    opacity: 0;
+}
+
+.grupo-empresarial-card article {
+    font-size: 2.1rem;
+    max-width: 27.4rem;
+    color: #FA5B37;
+    transition: .3s all;
+}
+
+.grupo-empresarial-card article strong {
+    display: block;
+}
+
+.grupo-empresarial-card article p {
+    font-weight: 400;
+}
+
+.grupo-empresarial-card-hidden {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    
+    opacity: 0;
+    transition: .3s all;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grupo-empresarial-card-hidden p {
+    font-size: 1.4rem;
+    font-weight: 600 !important;
+    color: #202020;
+}
+
+.grupo-empresarial-card-hidden span {
+    color: #202020;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.grupo-empresarial-card-hidden strong {
+    font-weight: 900;
+}
+
+.grupo-empresarial-card-hidden hr {
+    margin: 2rem auto;
+    border: none;
+    border-bottom: 1px solid #FA5B37;
+    width: 13rem;
+}
+
+.grupo-empresarial h3 {
+    font-size: 3rem;
+    color: #FA5B37;
+    margin-top: 7.1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.grupo-empresarial .beneficios-paragraph {
+    margin-top: 9.6rem;
+}

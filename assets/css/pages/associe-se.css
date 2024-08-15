@@ -1,0 +1,181 @@
+.associe-se {
+    margin: 10.5rem auto 11.7rem;
+}
+
+.associe-se article {
+    white-space: break-spaces;
+}
+
+.associe-se article p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #202020;
+}
+
+.vantagens .blue-section-item {
+    flex: 1 0 20%;
+}
+
+.beneficios-btn {
+    max-width: 92rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 2.4rem;
+    background-color: #FA5B37;
+    margin: 0 auto 6.2rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.beneficios-paragraph {
+    font-weight: 600;
+    color: #202020;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.beneficios-paragraph span {
+    width: 100%;
+    display: block;
+    color: #FA5B37;
+    font-weight: 800;
+}
+
+.beneficios-paragraph span a {
+    text-decoration: none;
+    color: #FA5B37;
+}
+
+.beneficios h3 {
+    font-size: 2.4rem;
+    text-align: center;
+    margin: 4.3rem 0 2.8rem;
+}
+
+.beneficios-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.beneficios-card {
+    background-color: #ECF5FF;
+    max-width: 44.5rem;
+    width: 100%;
+    padding: 4.7rem 3.15rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.beneficios-card a {
+    text-decoration: none;
+    color: #FA5B37;
+    margin-top: 3rem;
+    display: block;
+}
+
+.formulario {
+    margin: 7.4rem auto;
+}
+
+.formulario-container--active .formulario-form, .formulario-container--active .formulario-form .hf-fields-wrap {
+    height: fit-content;
+    opacity: 1;
+}
+
+.formulario-tab {
+    background-color: #4299E9;
+    padding: 2.4rem 3.3rem;
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.formulario-form, .formulario-container .hf-fields-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3.5rem;
+    row-gap: 3rem;
+    column-gap: 3rem;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+
+.formulario-form h3, .formulario-container .hf-fields-wrap h3 {
+    display: block;
+    width: 100%;
+    color: #FA5B37;
+    margin: 6.3rem 0 5.3rem;
+    font-size: 2.1rem;
+    font-weight: 700;
+}
+
+.formulario-form span, .formulario-container .hf-fields-wrap span {
+    font-size: 1.2rem;
+}
+
+.formulario-container .formulario-tab-button::after {
+    content: '+';
+    font-size: 2.1rem;
+    transition: .3s all;
+}
+
+.formulario-container--active .formulario-tab-button::after {
+    content: '-';
+    font-size: 2.1rem;
+    transition: .3s all;
+}
+
+.input-send {
+    background-color: #FA5B37;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    border-color: #1890FF;
+    border-radius: .2rem;
+    width: 19.7rem;
+    height: 4.9rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .vantagens .blue-section-item {
+        flex: 1 0 50%;
+    }
+    .blue-section-item {
+        flex: 1 0 50%;
+    }
+
+    .beneficios-box {
+        justify-content: center;
+    }
+
+    .beneficios-card {
+        margin-bottom: 3rem;
+    }
+
+    .formulario-form h3 {
+        margin: 1rem 0;
+        font-size: 1.6rem;
+    }
+
+    .input-send {
+        width: 100%;
+    }
+}

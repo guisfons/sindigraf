@@ -1,0 +1,48 @@
+.boletim {
+    margin: 4.9rem auto 5.7rem;
+}
+
+.boletim > img {
+    margin: 0 auto 6rem;
+    display: block;
+}
+
+.boletim article {
+    white-space: pre-line;
+}
+
+.boletim article p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+}
+
+.boletim-arquivos .input-select.input-anos {
+    max-width: 22.5rem;
+    margin-left: auto;
+}
+
+.boletim-arquivos-container {
+    margin: 6.3rem 0 8.9rem;
+}
+
+.boletim-arquivos-container .apresentacoes-card a:last-of-type {
+    margin-left: 7.4rem;
+}
+
+
+@media (max-width: 900px) {
+    .boletim-arquivos-container .apresentacoes-card {
+        flex-wrap: wrap;
+    }
+
+    .boletim-arquivos-container .apresentacoes-card a:last-of-type {
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .boletim-arquivos-container .apresentacoes-card a:last-of-type {
+        margin-left: auto;
+    }
+}

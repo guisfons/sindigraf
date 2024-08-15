@@ -1,0 +1,62 @@
+.personal-info {
+    background-color: #E4F2FF;
+    padding: 5rem 0;
+}
+
+.personal-info-item {
+    display: flex;
+    padding: 1rem 0;
+}
+
+.personal-info-label {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #202020;
+}
+
+.personal-info-text {
+    font-size: 1.4rem;
+    font-weight: normal;
+    padding-left: 5rem;
+}
+
+.personal-info-label {
+    max-width: 15rem;
+    width: 100%;
+}
+
+.personal-info-tip {
+    text-align: center;
+    padding: 7.5rem 0 5rem 0;
+    font-size: 1.8rem;
+}
+
+.personal-info-update {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FA5B37;
+    font-size: 2rem;
+    width: 100%;
+    max-width: 35rem;
+    height: 8rem;
+    margin: 0 auto;
+}
+
+.personal {
+    padding-bottom: 35rem;
+}
+
+.personal-info-private {
+    font-size: 1.2rem;
+    padding-top: 2rem;
+}
+
+
+@media(max-width: 768px) {
+    .personal {
+        padding-bottom: 10rem
+    }
+}

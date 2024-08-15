@@ -1,0 +1,65 @@
+.manage-vacancie-item {
+    background-color: #E4F2FF;
+    padding: 3rem 0;
+}
+
+.manage-vacancie-title {
+    color: #FA5B37;
+    font-size: 2.4rem;
+}
+
+.manage-vacancie-item:not(:last-child) {
+    margin-bottom: 6rem;
+}
+
+.manage-vacancie-area {
+    padding: 1rem 0;
+    font-size: 1.8rem;
+}
+
+.manage-vacancie-date {
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    font-weight: bold;
+}
+
+.manage-vacancie-status {
+    font-size: 1.4rem;
+    font-weight: lighter;
+    padding-bottom: 2.5rem;
+}
+
+.manage-vacancie-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 28.5rem;
+    width: 100%;
+    height: 5rem;
+    color: #fff;
+    font-size: 1.8rem;
+    text-decoration: none;
+    background-color: #FA5B37;
+}
+
+.manage-vacancie-actions {
+    display: flex;
+}
+
+.manage-vacancie-btn:not(:last-child) {
+    margin-right: 3.5rem;
+}
+
+.manage-vacancie {
+    padding-bottom: 16rem;
+}
+
+@media(max-width: 426px) {
+    .manage-vacancie-actions {
+        flex-direction: column;
+    }
+    
+    a.manage-vacancie-btn {
+        margin-top: 1rem;
+    }
+}

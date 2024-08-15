@@ -1,0 +1,48 @@
+@import './reset/normalize.css';
+@import './reset/geral.css';
+
+/* parts */
+@import './reset/header.css';
+@import './reset/footer.css';
+@import './reset/aside.css';
+@import './reset/components.css';
+
+/* páginas */
+@import './pages/home.css';
+@import './pages/missao-objetivos.css';
+@import './pages/login.css';
+@import './pages/associe-se.css';
+@import './pages/historia.css';
+@import './pages/grupo-empresarial.css';
+@import './pages/seccional.css';
+@import './pages/sobre.css';
+@import './pages/apresentacoes.css';
+@import './pages/fale-conosco.css';
+@import './pages/area-interna.css';
+@import './pages/galeria.css';
+@import './pages/area-interna-vagas.css';
+@import './pages/diretoria.css';
+@import './pages/galeria-presidentes.css';
+@import './pages/estatuto.css';
+@import './pages/juridico.css';
+@import './pages/informacoes-pessoais.css';
+@import './pages/curriculo.css';
+@import './pages/curriculos-recebidos.css';
+@import './pages/gerenciar-vagas.css';
+@import './pages/informacoes-gerais.css';
+@import './pages/formularios.css';
+@import './pages/cadastrar-info-logado.css';
+@import './pages/comunicacao.css';
+@import './pages/noticias.css';
+@import './pages/tv-abigraf.css';
+@import './pages/boletim.css';
+@import './pages/faq.css';
+@import './pages/banco-empregos.css';
+@import './pages/calendario.css';
+@import './pages/colonia-ferias.css';
+@import './pages/pesquisa-salarial.css';
+@import './pages/guia-sindical.css';
+@import './pages/calendario.css';
+@import './pages/bibliotecas.css';
+@import './pages/search.css';
+@import './pages/associados.css';

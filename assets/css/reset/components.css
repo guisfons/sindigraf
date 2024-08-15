@@ -1,0 +1,690 @@
+/* Eventos */
+
+.eventos-title {
+    text-align: center;
+    font-size: 3.6rem;
+    color: #228B78;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+}
+
+.eventos-box {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 92.1rem;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.evento-header {
+    background-color: #FA5B37;
+    width: 100%;
+    padding: 1.5rem 2rem;
+}
+
+.eventos .slick-arrow {
+    font-size: 0;
+    background-color: transparent;
+    border: none;
+    /* background-image: url(../../images/icons/arrow-eventos.svg); */
+    background-size: contain;
+    width: 2.55rem;
+    height: 4.06rem;
+    position: absolute;
+    top: 50%;
+}
+
+.eventos .slick-prev {
+    /* left: -7rem; */
+    /* transform: translateY(-50%); */
+}
+
+.eventos .slick-next {
+    right: -7rem;
+    transform: translateY(-50%) rotate(0);
+}
+
+.evento-item {
+    max-width: 44.5rem;
+    flex: 1 1 30rem;
+    padding-bottom: 2rem;
+    background-color: #EBF2F8;
+    -webkit-box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.1);
+    -moz-box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.1);
+    margin-right: 3.1rem;
+    margin-bottom: 2rem;
+}
+
+.evento-date {
+    color: #fff;
+    font-size: 2rem;
+    display: inline-flex;
+    align-items: flex-end;
+    padding-right: 2rem;
+}
+
+.evento-calendar {
+    padding-right: 1rem;
+}
+
+.evento-time {
+    color: #fff;
+    font-size: 2rem;
+    display: inline-flex;
+    align-items: flex-end;
+}
+
+.evento-clock {
+    padding-right: 1rem;
+}
+
+.evento-link {
+    color: #202020;
+    font-size: 1.8rem;
+    text-decoration: none;
+    display: inline-block;
+    margin: 3.5rem 2rem 3rem;
+}
+
+.evento-see {
+    color: #FA5B37;
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 2rem;
+    display: block;
+    max-width: 6rem;
+}
+
+.eventos {
+    padding-bottom: 10rem;
+}
+
+@media (max-width: 900px) {
+    
+}
+
+/* Inputs */
+
+.input {
+    max-height: 4.4rem;
+    min-height: 4.4rem;
+    height: 100%;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 1.4rem 1.7rem;
+    border: 1px solid #4299E9;
+    outline: none;
+}
+
+.input-full {
+    flex: 1 0 100%;
+    width: 100%;
+}
+
+.input-big {
+    flex: 1 0 54rem;
+}
+
+.input-half {
+    flex: 1 0 44.5rem;
+}
+
+.input-medium {
+    flex: 1 0 35rem;
+}
+
+.input-small {
+    flex: 1 0 25.5rem;
+}
+
+.input-smallest {
+    flex: 1 0 16rem;
+}
+
+.input-select {
+    position: relative;
+    width: 100%;
+}
+
+.input-select br {
+    display: none;
+}
+
+.input-select select{
+    padding: 0 1.7rem;
+    cursor: pointer;
+}
+
+.input-select::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #4299E9;
+    width: 4.4rem;
+    height: 4.4rem;
+    display: block;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.input-select::after {
+    content: '';
+    position: absolute;
+    right: 1.2rem;
+    top: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    display: block;
+    pointer-events: none;
+    border: 1px solid #fff;
+    border-width: 0 .1rem .1rem 0;
+    transform: rotate(45deg);
+    z-index: 3;
+}
+
+.input-textarea {
+    resize: none;
+    min-height: 18rem;
+    max-height: 18rem;
+    height: 100%;
+}
+
+.input-date {
+    flex: 1 0 44.5rem;
+    max-width: 44.5rem;
+    position: relative;
+}
+
+.input-date::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 1.7rem;
+    transform: translateY(-50%);
+    pointer-events: none;
+
+    width: 3.2rem;
+    height: 3.2rem;
+    background-image: url(../../images/icons/calendario-icon.svg);
+    background-size: contain;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.info-general-option-checkbox {
+    border: 0.4rem solid #FA5B37;
+    border-radius: 5rem;
+    width: 6rem;
+    height: 3.75rem;
+    display: block;
+    appearance: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.info-general-option-checkbox::after {
+    content: '';
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 50%;
+    display: block;
+    background-color: rgba(128, 117, 117, .5);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0.5rem;
+    transition: .3s all;
+}
+
+.info-general-option-checkbox:checked::after {
+    background-color: #FA5B37;
+    left: 2.5rem;
+}
+
+
+.header-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 6.1rem;
+}
+
+.header-input h3 {
+    font-size: 3rem;
+    color: #FA5B37;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header-input .input-anos {
+    width: 22.5rem;
+    position: absolute;
+    right: 0;
+}
+
+.header-input .input-select::before {
+    background-color: #FA5B37;
+}
+
+.input-anos::before {
+    background-color: #FA5B37;
+}
+
+.input-anos .input {
+    border-color: #FA5B37;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+@media (max-width: 900px) {
+    .input-big {
+        flex: 1 0 100%;
+    }
+
+    .input-small, .input-smallest, .input-half, .input-medium {
+        flex: 1 0 100%;
+    }
+
+    .header-input {
+        flex-direction: column;
+    }
+
+    .header-input .input-anos {
+        position: relative;
+    }
+
+    .input-date {
+        max-width: 50%;
+    }
+}
+
+/* Formulário Contato */
+
+.formulario-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3.6rem;
+    max-width: 44.5rem;
+    margin: 0 auto;
+}
+
+.formulario-contato br {
+    display: none;
+}
+
+.formulario-contato > p {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3.6rem;
+    width: 100%;
+}
+
+.formulario-contato > p span{
+    margin: 0;
+}
+
+.formulario-contato .input {
+    max-width: 44.5rem;
+}
+
+.formulario-contato input[type=submit] {
+    appearance: none;
+    max-width: 34.2rem;
+    width: 100%;
+    height: 7.7rem;
+    border: none;
+    background-color: #FA5B37;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.formulario-contato-header {
+    margin-bottom: .9rem;
+    text-align: center;
+}
+
+.formulario-contato-header h3 {
+    font-size: 3rem;
+    color: #FA5B37;
+    margin-bottom: 1.9rem;
+}
+
+.formulario-contato-header p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #000;
+}
+
+.formulario-contato span {
+    font-size: 1.2rem;
+    text-align: left;
+    width: 100%;
+    margin: -1.1rem 0 .7rem;
+}
+
+/* Noticias */
+
+.noticias-title {
+    color: #C22525;
+    font-size: 3.6rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.noticias-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.noticias-box-title {
+    background-color: #4299E9;
+    color: #fff;
+    font-size: 1.4rem;
+    max-width: 32rem;
+    padding: 1rem;
+    width: 100%;
+    max-width: 35rem;
+    margin-bottom: 3rem;
+}
+
+.noticia-items {
+    flex: 1 1 100%;
+    max-width: 35rem;
+}
+
+.noticias-post-title {
+    font-size: 2rem;
+    color: #202020;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.noticias {
+    padding-bottom: 10rem;
+}
+
+.noticias-see {
+    color: #FA5B37;
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+    .noticias-box {
+        justify-content: space-around;
+        row-gap: 3rem;
+    }
+
+    .noticias {
+        padding-bottom: 3rem;
+    }
+}
+
+/* Seção azul */
+
+.blue-section {
+    background-color: #E4F2FF;
+    padding: 3.5rem 0 4.7rem;
+    margin-bottom: 5.6rem;
+}
+
+.blue-section-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 111.5rem;
+    width: 90%;
+    margin: 0 auto;
+    row-gap: 6.4rem;
+}
+
+.blue-section-title {
+    color: #FA5B37;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.blue-section-item {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blue-section-item img {
+    margin: auto;
+}
+
+.blue-section-item span {
+    font-size: 1.6rem;
+    margin-top: 1.6rem;
+    text-align: center;
+}
+
+/* Top Sobre */
+
+.section-header-box {
+    margin: 9.2rem 0 11.679rem;
+}
+
+.section-header-box article{
+    display: flex;
+    position: relative;
+}
+
+.section-header-box p {
+    max-width: 66rem;
+    width: 100%;
+    background-color: #FA5B37;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 2.4rem 3.4rem;
+    
+    position: absolute;
+    top: 5.4rem;
+    left: 0;
+}
+
+.section-header-box img {
+    max-width: 54rem;
+    width: 100%;
+    height: 38.5rem;
+    object-fit: cover;
+    margin-left: auto;
+}
+
+@media (max-width: 900px) {
+    .section-header-box {
+        margin: 5rem 0 5rem;
+    }
+    
+    .section-header-box article {
+        flex-direction: column;
+    }
+
+    .section-header-box p {
+        position: relative;
+        top: 0;
+        max-width: 100%;
+        width: 100%;
+        order: 1;
+    }
+
+    .section-header-box img {
+        max-width: 100%;    
+        height: 35rem;
+    }
+}
+
+/* Páginação */
+
+.paginacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6.1rem;
+}
+
+.paginacao-before, .paginacao-after {
+    width: .638rem;
+    height: 1.015rem;
+    margin-right: .916rem;
+    cursor: pointer;
+}
+
+.paginacao-after {
+    transform: rotate(-180deg);
+}
+
+.paginacao-numeros {
+    font-size: 1.4rem;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+}
+
+.paginacao-numeros a, .paginacao-numeros span {
+    width: 2.4rem;
+    height: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.page-numbers.current {
+    color: #FA5B37; 
+    box-shadow: inset 0px 0px 0px 1px #FA5B37;
+    border-radius: .2rem;
+}
+
+.paginacao-numeros-azul .paginacao-numero--active {
+    color: #1890FF;
+    box-shadow: inset 0px 0px 0px 1px #1890FF;
+}
+
+.logged-modal-box {
+    max-width: 90rem;
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 50rem;
+    height: 100%;
+}
+
+.logged-modal-close {
+    display: flex;
+    max-width: 3rem;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 2rem 0 auto;
+}
+
+.logged-modal-text {
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    padding-top: 9.7rem;
+    color: #fff;
+}
+
+.logged-modal-title {
+    text-align: center;
+    font-size: 3.6rem;
+    color: #fff;
+}
+
+.logged-modal-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #103353;
+    opacity: .95;
+}
+
+.logged-modal-body {
+    height: 100%;
+    position: relative;
+}
+
+.logged-modal-text.question {
+    text-align: start;
+    padding-left: 7rem;
+    padding-top: 6rem;
+}
+
+.logged-modal-form {
+    padding-left: 7rem;
+}
+
+.logged-form-label-checkbox {
+    display: block;
+    padding-bottom: 1.9rem;
+}
+
+.logged-form-label-checkbox input[type="checkbox"] {
+    width: 3.6rem;
+    height: 3.6rem;
+}
+
+.modal-form-label-checkbox {
+    font-size: 2.1rem;
+    color: #fff;
+    padding-left: 1.5rem;
+}
+
+.modal-form-box-submit {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5rem;
+}
+
+.modal-form-submit {
+    color: #fff;
+    border: none;
+    height: 5rem;
+    max-width: 16.7rem;
+    width: 100%;
+    background-color: #FA5B37;
+    font-size: 1.8rem;
+}
+
+
+@media(max-width: 426px) {
+    p.logged-modal-text.question {
+        padding-left: 3rem;
+    }
+    
+    form.logged-modal-form {
+        padding-left: 3rem;
+    }
+    
+    .logged-modal-box {
+        max-height: 60rem;
+    }
+    
+    span.modal-form-label-checkbox {
+        font-size: 1.8rem;
+    }
+    
+    label.logged-form-label-checkbox {
+        padding-bottom: 3rem;
+    }
+}
